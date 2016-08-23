@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+.container {
+	background: -webkit-linear-gradient(left, #00BBFF, #00BBFF 14.3%, #2EB5E5 14.3%, #2EB5E5 28.6%, #E6E6E6 28.6%, #E6E6E6 42.9%, #F3D166 42.9%, #F3D166 57.2%, #222233 57.2%, #222233 71.5%, #444444 71.5%, #444444 85.8%, #85DB8C 85.8%);
+	background: linear-gradient(left, #00BBFF, #00BBFF 14.3%, #2EB5E5 14.3%, #2EB5E5 28.6%, #E6E6E6 28.6%, #E6E6E6 42.9%, #F3D166 42.9%, #F3D166 57.2%, #222233 57.2%, #222233 71.5%, #444444 71.5%, #444444 85.8%, #85DB8C 85.8%);
+	-webkit-transform: scale(.9);
+	    -ms-transform: scale(.9);
+	        transform: scale(.9);
+	width: 1200px;
+	position: absolute;
+	height: 210px;
+	left: 50%;
+	top: 50%;
+	margin: -65px -600px;
+}
+	/* CLOUDY */
+.cloudy {
+	-webkit-animation: cloudy 25s ease-in-out infinite alternate;
+	        animation: cloudy 25s ease-in-out infinite alternate;
+	background: #FFFFFF;
+	border-radius: 50%;
+	box-shadow: 
+		#FFFFFF 65px -15px 0 -5px, 
+		#FFFFFF 25px -25px, 
+		#FFFFFF 30px 10px, 
+		#FFFFFF 60px 15px 0 -10px, 
+		#FFFFFF 85px 5px 0 -5px;
+	height: 50px;
+	width: 50px; 
+	margin-left: -60px;
+	position: absolute;
+	left: 255px;
+	top: 70px; 
+}
+
+@-webkit-keyframes cloudy {
+	50% { -webkit-transform: translateX(-20px); transform: translateX(-20px); }
+}
+@keyframes cloudy {
+	50% { -webkit-transform: translateX(-20px); transform: translateX(-20px); }
+}
+.cloudy2 {
+	-webkit-animation: cloudy2 15s ease-in-out infinite;
+	        animation: cloudy2 15s ease-in-out infinite;
+	background: #FFFFFF;
+	border-radius: 50%;
+	box-shadow: 
+		#FFFFFF 65px -15px 0 -5px, 
+		#FFFFFF 25px -25px, 
+		#FFFFFF 30px 10px, 
+		#FFFFFF 60px 15px 0 -10px, 
+		#FFFFFF 85px 5px 0 -5px;
+	height: 70px;
+	width: 70px; 
+	margin-left: -10px;
+	position: absolute;
+	left: 50px;
+	top: 20px; 
+}
+
+@-webkit-keyframes cloudy2 {
+	60% { -webkit-transform: translateX(-30px); transform: translateX(-30px); }
+}
+@keyframes cloudy2 {
+	60% { -webkit-transform: translateX(-30px); transform: translateX(-30px); }
+}
+    .cloudy3 {
+	-webkit-animation: cloudy3 5s ease-in-out infinite;
+	        animation: cloudy3 5s ease-in-out infinite;
+	background: #FFFFFF;
+	border-radius: 50%;
+	box-shadow: 
+		#FFFFFF 65px -15px 0 -5px, 
+		#FFFFFF 25px -25px, 
+		#FFFFFF 30px 10px, 
+		#FFFFFF 60px 15px 0 -10px, 
+		#FFFFFF 85px 5px 0 -5px;
+	height: 60px;
+	width: 50px; 
+	margin-left: -25px;
+	position: absolute;
+	left: 350px;
+	top: 70px; 
+}
+
+@-webkit-keyframes cloudy3 {
+	60% { -webkit-transform: translateX(-30px); transform: translateX(-30px); }
+}
+@keyframes cloudy3 {
+	60% { -webkit-transform: translateX(-30px); transform: translateX(-30px); }
+}
+    .cloudy4 {
+	-webkit-animation: cloudy4 10s ease-in-out infinite;
+	        animation: cloudy4 10s ease-in-out infinite;
+	background: #FFFFFF;
+	border-radius: 50%;
+	box-shadow: 
+		#FFFFFF 65px -15px 0 -5px, 
+		#FFFFFF 25px -25px, 
+		#FFFFFF 30px 10px, 
+		#FFFFFF 60px 15px 0 -10px, 
+		#FFFFFF 85px 5px 0 -5px;
+	height: 70px;
+	width: 70px; 
+	margin-left: -10px;
+	position: absolute;
+	left: 520px;
+	top: 20px; 
+}
+
+@-webkit-keyframes cloudy4 {
+	70% { -webkit-transform: translateX(-30px); transform: translateX(-30px); }
+}
+@keyframes cloudy4 {
+	70% { -webkit-transform: translateX(-30px); transform: translateX(-30px); }
+}
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="cloudy"></div>
+	<div class="cloudy2"></div>
+    <div class="cloudy3"></div>
+    <div class="cloudy4"></div>
+</div>
+
+</body>
+</html>
